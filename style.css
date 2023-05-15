@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body  {
+    background: #fff;
+    overflow: hidden;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+
+.head img {
+    margin-top: 15px;
+    width: 100px;
+}
+
+.head ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head ul li{
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.head ul i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin-top: 80px;
+}
+
+.content-left {
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.content-left h1 {
+    font-size: 3.7rem;
+}
+
+.content-left p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.content-left .cv-btn {
+    padding: 10px 25px;
+    outline: none;
+    color: white;
+    background: #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-left .span{
+    color: rgb(255, 98, 0);
+}
+
+.content-left .icons{
+    margin-top: 120px;
+    font-size: 30px;
+}
+
+.content-left .icons i {
+    padding-right: 10px;
+    cursor: pointer;
+    color: grey;
+}
+
+.content-right {
+    margin-left: 120px;
+}
+
+.content-right .girl-img {
+    width: 58.5%;
+    position: relative;
+    z-index: 2;
+
+}
+
+.content-right .pattern-img {
+    width: 70%;
+    position: relative;
+    bottom: 50%;
+    
+}
+
+
